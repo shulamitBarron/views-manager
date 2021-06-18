@@ -1,0 +1,28 @@
+.layout-card {
+    height: 375px;
+    font-size: 0.7em;
+    white-space: nowrap;
+    line-height: 0.5;
+}
+
+.draggable-component {
+    width: 250px;
+    height: 100px;
+    cursor: grab;
+}
+
+.draggable-component:active {
+    cursor: grabbing;
+}
+
+.remove {
+    line-height: 0.5px;
+}
+
+.configuration-layout {
+    cursor: grab;
+}
+
+.configuration-layout:active {
+    cursor: grabbing;
+}
